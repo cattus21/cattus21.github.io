@@ -4,33 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>intro to css</title>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>
-      <a href="https://www.instagram.com/mkuzelyak/" target="_blank">
-        Привіт, мене звати Мар'яша
-      </a>
-    </h1>
-    <p>
-      Я народилася у місті Червоноград, Львівська область. Дякую Потоцькому, що
-      збудував це місто на честь своєї дружини - Кристини (перша назва міста
-      Кристинопіль). Часто волонтерила в міському самоврядуванні: влаштовували
-      різні фести та акції. Серед шкіл міста проходило "Що?Де?Коли?" в команду
-      моєї школи мене не взяли, тому пішла в команду від самоврядування - ми
-      вигравали). Тепер немаю стільки часу для волонтерства, але займаюся різним
-      спортом, найулюбленіший це плавання. Люблю читати - в основному це
-      детективи, психологія і різні записки судмедекспертів)
-    </p>
-    <h2>Захоплююся типографікою, шрифтами і котятами</h2>
-    <p>
-      На першому курсі захопилася каліграфією, в подальшому і шрифтами, надіюся,
-      ще довго не відпустить) Люблю кириличне письмо, по можливості взнаю різні
-      штуки про нього. Хотіла б стати дизайнеркою шрифтів, розробляти айдентку і
-      працювати з типографією у різних її проявах. Поки підживлюю ці рожеві мрії
-      і працюю в поліграфії молодшим дизайнером)
-    </p>
-    <h3>Ось декілька людей, роботи яких мені подобаються:</h3>
+    <div class="header">
+      <div class="wrapper">
+        <a href="#top" class="logo"> </a>
+        <ul class="menu">
+          <li><a href="#about">про мене</a></li>
+          <li><a href="#portfolio">портфоліо</a></li>
+          <li><a href="#contacts">контакти</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="about" class="section section-about">
+      <div class="wrapper">
+      <h1 class="main">
+          <a href="https://www.instagram.com/mkuzelyak/" target="_blank">
+            Привіт, мене звати Мар'яша </a>
+        </h1>
+        <p class="about" >
+          Я народилася у місті Червоноград, Львівська область. Дякую Потоцькому, що
+          збудував це місто на честь своєї дружини - Кристини (перша назва міста
+          Кристинопіль). Часто волонтерила в міському самоврядуванні: влаштовували
+          різні фести та акції. Серед шкіл міста проходило «Що?Де?Коли?» в команду
+          моєї школи мене не взяли, тому пішла в команду від самоврядування - ми
+          вигравали). Тепер немаю стільки часу для волонтерства, але займаюся різним
+          спортом, найулюбленіший це плавання. Люблю читати - в основному це
+          детективи, психологія і різні записки судмедекспертів)
+        </p>
+        <h2 class="main-2">
+           Захоплююся типографікою, шрифтами і котятами
+          </h2>
+        <p class="about">
+          На першому курсі захопилася каліграфією, в подальшому і шрифтами, надіюся,
+          ще довго не відпустить) Люблю кириличне письмо, по можливості взнаю різні
+          штуки про нього. Хотіла б стати дизайнеркою шрифтів, розробляти айдентку і
+          працювати з типографією у різних її проявах. Поки підживлюю ці рожеві мрії
+          і працюю в поліграфії молодшим дизайнером)
+        </p>
+    <h3 class="menu">
+      Ось декілька людей, роботи яких мені подобаються:</h3>
     <ul>
       <li>
         <a href="https://www.instagram.com/vikatata/" target="_blank">
@@ -55,14 +72,54 @@
       </li>
       <li>6. Дмитро Растовцев.</li>
     </ul>
-    <h4>
-      <a href="https://www.behance.net/mkuzelyak" target="_blank"
-        >А ось декілька моїх робіт</a
-      >
-    </h4>
-    <img src="mk.jpg" width="40%" />
-    <img src="vyaz1.jpg" width="40%" />
-    <img src="vyaz2.jpg" width="40%" />
-    <img src="vyaz3.jpg" width="40%" />
+    <h3 class="main-3">
+      
+      <a href="#top">На початок</a>
+    </div>
+  </div>
+
+
+    <div id="portfolio" class="section section-portfolio">
+      <div class="wrapper">
+        <h2>
+          <a href="https://www.behance.net/mkuzelyak" target="_blank"> Портфоліо </a>
+        </h2>
+        <div class="gallery">
+          <div class="gallery--item">
+            <img src="mk_logo.jpg" />  
+          </div>
+          <div class="gallery--item">
+            <img src="vyaz1.jpg" />
+          </div>
+          <div class="gallery--item">
+            <img src="vyaz2.jpg" />
+          </div>
+          <div class="gallery--item">
+            <img src="vyaz3.jpg" />
+          </div>
+          <div class="gallery--item">
+            <img src="vyaz4.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contacts" class="section section-contacts">
+      <div class="wrapper">
+        <h2>Контакти</h2>
+        <div class="gallery-contacts">
+      </div class="gallery-item">
+        <img src="telegram.jpg"/>
+      </div>
+      </div class="gallery-item">
+        <img src="telegram.jpg"/>
+      </div>
+      </div class="gallery-item">
+        <img src="telegram.jpg"/>
+      </div>
+    </div>
+        <a href="#top">На початок</a>
+      </div>
+    </div>
   </body>
 </html>
