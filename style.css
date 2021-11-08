@@ -9,19 +9,26 @@ body {
   margin: 0;
 }
 
-.main {
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.section {
   width: 100vw; /* 100% == 100vw vieport width */
   max-width: 100%; /* hack for 100vw */
-  height: 100vh; /* VH = viewport height */
+
+  min-height: 100vh; /* VH = viewport height */
   padding-top: 50px;
 }
 
 .section-about {
   background-color: white;
+  min-height: 20vh;
 }
 
 .header {
-  background-color: blue;
+  background-color: rgb(0, 0, 155);
   position: fixed;
   top: 0px;
   left: 0px;
@@ -44,9 +51,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
   text-decoration: none;
+
   width: 25%;
+  /* height: 60px; */
+}
+
+.logo img {
   height: 60px;
 }
 
@@ -57,7 +69,6 @@ body {
   margin: 0;
   display: flex;
   justify-content: space-around;
-  sty
 }
 
 .menu li {
@@ -73,11 +84,20 @@ body {
   text-decoration: none;
   width: 100%;
   text-align: center;
+  font-family: verdana;
 }
 
 .menu a:hover {
   background-color: white;
   color: black;
+
+}
+
+
+}
+.main-3 {
+  font-family: verdana;
+  color: rgb(0, 0, 155);
 }
 
 .gallery {
@@ -85,13 +105,66 @@ body {
   flex-wrap: wrap;
   gap: 10px;
 }
-.gallery--item {
-  width: 32%;
+
+.gallery .gallery-row {
+  display: flex;
+  flex-basis: 100%;
+  gap: 10px;
 }
-.gallery--item img {
+
+.gallery .gallery-item {
+  flex-grow: 1;
+}
+
+.column-left {
+  width: 40%;
+}
+
+.column-right {
+  width: 60%;
+
+}
+
+.gallery .gallery-item img {
   width: 100%;
   display: block;
 }
+
+.about__col__left {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+}
+.about__col__left_wrapper {
+  padding: 20px;
+}
+
+.about__col__right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.about__col__right_gallery_item {
+  padding-left: 40px;
+}
+.about__col__right_gallery_item img {
+  max-width: 100%;
+}
+.column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gallery-item img {
+  max-width: 100%;
+}
+
+/* .eqheight .gallery-item img {
+  width: auto;
+  height: 100%;
+} */
 
 .about {
   font-family: georgia;
@@ -100,18 +173,39 @@ body {
 .main a {
   font-family: verdana;
   font-size: 25pt;
-  color: rgb(0, 0, 255);
+  color: rgb(0, 0, 155);
 }
-
-.gallery-contacts {
-  display: inline;
-  flex-wrap: nowrap;
-  width: 10px;
-  height: 10px;
-}
-
 .main-2 {
-  color: blue;
+  color: rgb(0, 0, 155);
   font-family: verdana;
 }
 
+.section-contacts {
+  display: flex;
+  min-height: 25vh;
+}
+/*
+.section-contacts .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+} */
+
+.contacts-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contacts-item {
+  flex-basis: 10%;
+}
+
+.contacts-item img {
+  width: 100%;
+}
+
+.section section-mem {
+  padding: -10;
+}
