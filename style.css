@@ -50,17 +50,16 @@ img {
 
 .logo {
   display: flex;
-  justify-content: center;
   align-items: center;
   color: white;
   text-decoration: none;
-
   width: 25%;
   /* height: 60px; */
 }
 
 .logo img {
-  height: 60px;
+  height: 70px;
+  justify-content: flex-start;
 }
 
 .menu {
@@ -277,4 +276,16 @@ img {
   display: flex;
   align-items: center;
   max-width: 100%;
+}
+
+.link {
+  display: flex;
+  margin-top: 40px;
+  justify-content: right;
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+}
+
+.link a {
+  color: rgb(0, 0, 155);
 }
