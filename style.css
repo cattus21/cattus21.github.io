@@ -81,7 +81,7 @@ img {
 
 .menu a {
   color: white;
-  font-size: 20px;
+  font-size: 2.5vh;
   line-height: 80px;
   padding: 0 8px;
   display: block;
@@ -92,14 +92,14 @@ img {
 
 .menu a:hover {
   background-color: white;
-  color: black;
-  font-family: "Noto Sans", sans-serif;
+  color: rgb(0, 0, 155);
+  font-family: "Mulish", sans-serif;
 }
 
 .main-3 {
   font-family: verdana;
   color: rgb(0, 0, 155);
-  font-size: 50px;
+  font-size: 5vh;
 }
 
 .about-column {
@@ -130,7 +130,7 @@ img {
   font-family: "Mulish", sans-serif;
   align-items: flex-end;
   color: rgb(0, 0, 155);
-  font-size: 60px;
+  font-size: 6vh;
   /*text-shadow: 2px 2px 5px rgb(255, 0, 0);*/
 }
 .column-text-2 {
@@ -206,20 +206,24 @@ img {
 .about {
   font-family: "Noto Sans", sans-serif;
   color: black;
+  text-align: justify;
+  margin-top: 2vh;
 }
 .main a {
   font-family: "Mulish", sans-serif;
-  font-size: 25pt;
+  font-size: 2pt;
   color: rgb(0, 0, 155);
 }
 .main-2 {
   color: rgb(0, 0, 155);
   font-family: "Mulish", sans-serif;
+  text-align: justify;
+  margin-top: 3vh;
 }
 
 .section-contacts {
   display: flex;
-  min-height: 25vh;
+  min-height: 25pt;
 }
 /*
 .section-contacts .wrapper {
@@ -268,7 +272,7 @@ img {
   font-family: "Mulish", sans-serif;
   align-items: flex-start;
   color: rgb(0, 0, 155);
-  font-size: 80px;
+  font-size: 8vh;
 }
 
 .main-photo {
@@ -280,12 +284,35 @@ img {
 
 .link {
   display: flex;
-  margin-top: 40px;
+  margin-top: 1vh;
   justify-content: right;
-  font-size: 20px;
+  font-size: 2.5vh;
   font-family: "Mulish", sans-serif;
 }
 
 .link a {
   color: rgb(0, 0, 155);
+}
+
+.h4 {
+  font-size: 5vh;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.lg-backdrop {
+  background-color: rgb(0, 0, 155, 0.7);
+  opacity: 0.5;
+}
+
+.lg-sub-html p {
+  font-size: 2vh;
+  font-family: "Noto Sans", sans-serif;
+  margin-left: 490px;
+  max-width: 50%;
+  overflow-wrap: break-word;
+}
+
+.lg-sub-html h4 {
+  font-size: 3vh;
+  font-family: "Noto Sans", sans-serif;
 }

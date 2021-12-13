@@ -5,12 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>intro to css</title>
+
+    <!-- крок 1 підключити css lightgallery -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+      integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@900&family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@900&family=Noto+Sans&display=swap" rel="stylesheet">
   </head>
-  
+
   <body>
     <div class="header">
       <div class="wrapper">
@@ -24,150 +43,208 @@
         </ul>
       </div>
     </div>
-   
 
     <div id="about" class="section section-about">
       <div class="wrapper">
-      <div class="main">
-      <div class="main-me">
-        <div class="main-me-text">
-          Привіт, мене звати Мар'яша 
+        <div class="main">
+          <div class="main-me">
+            <div class="main-me-text">Привіт, мене звати Мар'яша</div>
+          </div>
+          <div class="main-photo">
+            <a href="https://www.instagram.com/mkuzelyak/" target="_blank">
+              <img src="mee.jpg" />
+            </a>
+          </div>
         </div>
-        
-      </div>
-        <div class="main-photo">
-          <a href="https://www.instagram.com/mkuzelyak/" target="_blank"> <img src="mee.jpg" > </a>
-        </div>
-      </div>
-    
-        
 
-<div class="about-column">
-  <div class="column-photo">
-    <div class="photo"> <img src="wine.jpg" />
-    </div>
- </div>
-  <div class="column-text">
-    <div class="column-text-1">
-     Котята, шрифти та меми </div>
-     
-    <div class="column-text-2">
-     Так би назвали фільм, якщо б знімали про моє життя.
-     </div>
-     
-  </div>
-     </div>
-    
-        
-        <p class="about" >
-          Я народилася у місті Червоноград, Львівська область. Дякую Потоцькому, що
-          збудував це місто на честь своєї дружини - Кристини (перша назва міста
-          Кристинопіль). Часто волонтерила в міському самоврядуванні: влаштовували
-          різні фести та акції. Серед шкіл міста проходило «Що?Де?Коли?» в команду
-          моєї школи мене не взяли, тому пішла в команду від самоврядування - ми
-          вигравали). Тепер немаю стільки часу для волонтерства, але займаюся різним
-          спортом, найулюбленіший це плавання. Люблю читати - в основному це
-          детективи, психологія і різні записки судмедекспертів)
-        </p>
-       
-        <h2 class="main-2">
-           Захоплююся типографікою, шрифтами і котятами
-          </h2>
-          
-          
+        <div class="about-column">
+          <div class="column-photo">
+            <div class="photo"><img src="wine.jpg" /></div>
+          </div>
+          <div class="column-text">
+            <div class="column-text-1">Котята, шрифти та меми</div>
+
+            <div class="column-text-2">
+              Так би назвали фільм, якщо б знімали про моє життя.
+            </div>
+          </div>
+        </div>
 
         <p class="about">
-          На першому курсі захопилася каліграфією, в подальшому і шрифтами, надіюся,
-          ще довго не відпустить) Люблю кириличне письмо, по можливості взнаю різні
-          штуки про нього. Хотіла б стати дизайнеркою шрифтів, розробляти айдентку і
-          працювати з типографією у різних її проявах. Поки підживлюю ці рожеві мрії
-          і працюю в поліграфії молодшим дизайнером)
+          Я народилася у місті Червоноград, Львівська область. Дякую Потоцькому,
+          що збудував це місто на честь своєї дружини - Кристини (перша назва
+          міста Кристинопіль). Часто волонтерила в міському самоврядуванні:
+          влаштовували різні фести та акції. Серед шкіл міста проходило
+          «Що?Де?Коли?» в команду моєї школи мене не взяли, тому пішла в команду
+          від самоврядування - ми вигравали). Тепер немаю стільки часу для
+          волонтерства, але займаюся різним спортом, найулюбленіший це плавання.
+          Люблю читати - в основному це детективи, психологія і різні записки
+          судмедекспертів)
         </p>
-      
-        
-    <h3 class="main-2">
-      Ось декілька людей, роботи яких мені подобаються:</h3>
-    <ul class="people">
-      <li>
-        <a href="https://www.instagram.com/vikatata/" target="_blank">
-          Сестри Вікторія та Віталіна Лопухіни;</a
-        >
-      </li>
-      <li>
-        <a href="https://www.instagram.com/mynameisviktor/" target="_blank"
-          > Віктор Пушкарьов;</a
-        >
-      </li>
-      <li>
-        <a href="https://www.instagram.com/ktkachev/" target="_blank">
-          Кирило Ткачов;</a
-        >
-      </li>
-      <li> Вероніка Чебаник;</li>
-      <li>
-        <a href="https://www.instagram.com/komm_nata/" target="_blank">
-           Наталія Ком'яхова;</a
-        >
-      </li>
-      <li> Дмитро Растовцев.</li>
-    </ul>
-    
-    </div>
-  </div>
 
+        <h2 class="main-2">Захоплююся типографікою, шрифтами і котятами</h2>
+
+        <p class="about">
+          На першому курсі захопилася каліграфією, в подальшому і шрифтами,
+          надіюся, ще довго не відпустить) Люблю кириличне письмо, по можливості
+          взнаю різні штуки про нього. Хотіла б стати дизайнеркою шрифтів,
+          розробляти айдентку і працювати з типографією у різних її проявах.
+          Поки підживлюю ці рожеві мрії і працюю в поліграфії молодшим
+          дизайнером)
+        </p>
+
+        <h3 class="main-2">
+          Ось декілька людей, роботи яких мені подобаються:
+        </h3>
+        <ul class="people">
+          <li>
+            <a href="https://www.instagram.com/vikatata/" target="_blank">
+              Сестри Вікторія та Віталіна Лопухіни;</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/mynameisviktor/" target="_blank">
+              Віктор Пушкарьов;</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/ktkachev/" target="_blank">
+              Кирило Ткачов;</a
+            >
+          </li>
+          <li>Вероніка Чебаник;</li>
+          <li>
+            <a href="https://www.instagram.com/komm_nata/" target="_blank">
+              Наталія Ком'яхова;</a
+            >
+          </li>
+          <li>Дмитро Растовцев.</li>
+        </ul>
+      </div>
+    </div>
 
     <div id="portfolio" class="section section-portfolio">
       <div class="wrapper">
-        <h1 class="main-3">
-           Портфоліо </a>
-        </h1>
+        <h1 class="main-3">Портфоліо</h1>
         <div class="gallery">
           <div class="gallery-row">
-          <div class="gallery-item"><img src="vyaz_site_1.jpg" /></div>
-          <div class="gallery-item"><img src="vyaz_site_2.jpg" /></div>
-          <div class="gallery-item"><img src="vyaz_site_3.jpg" /></div>
-         </div>
-         <div class="gallery-row column">
-           <div class="column-left">
-           <div class="gallery-item"><img src="vyaz_site_4.jpg" /></div>
-           </div>
-           <div class="column-right">
-            <div class="column-right-1">
-            <div class="gallery-item"><img src="vyaz_site_5.jpg" /></div>
+            <div class="gallery-item">
+              <a
+                href="bigger_m.jpg"
+                target="_blank"
+                data-sub-html="<h4>Типу мій логотип </h4> <p> Моя любов до похідних в'язі безмежна <a href='https://www.behance.net/mkuzelyak' target='_blank'>тут краще видно
+                  </a description later on.</p>"
+              >
+                <img src="vyaz_site_1.jpg" />
+              </a>
             </div>
-           <div class="column-right-2">
-            <div class="gallery-item"><img src="false_vyaz1.jpg" /></div>
+            <div class="gallery-item">
+              <a
+                href="bigger_1.jpg"
+                target="_blank"
+                data-sub-html="<h4>  «І жінка з темним, як земля волоссям...»</h4><p>Вірш Сергія Жадана <a href='https://www.behance.net/gallery/123229307/Cyrilic-Calligraphy-Works' target='_blank'>повний опис тут</a description later on.</p>"
+                ><img src="vyaz_site_2.jpg" />
+              </a>
             </div>
+            <div class="gallery-item">
+              <a
+                href="bigger_2_.jpg"
+                target="_blank"
+                data-sub-html="<h4> «Егоїстка для егоїста»</h4><p>Вірш авторки Шоколад <a href='https://www.behance.net/gallery/123229307/Cyrilic-Calligraphy-Works' target='_blank'>повний опис тут</a description later on.</p>"
+              >
+                <img src="vyaz_site_3.jpg" />
+              </a>
             </div>
-           </div>
-         </div>
-         <div class="link"><a href="https://www.behance.net/mkuzelyak" target="_blank"> лінк на повне портфоліо</a></div>
+          </div>
+          <div class="gallery-row column">
+            <div class="column-left">
+              <div class="gallery-item">
+                <a
+                  href="bigger_3.jpg"
+                  target="_blank"
+                  data-sub-html="<h4>«Навчи»</h4><p>Ага, ще один вірш Жадана, ну а що?) він класний <a href='https://www.behance.net/gallery/123229307/Cyrilic-Calligraphy-Works' target='_blank'>повний опис тут</a description later on.</p>"
+                  ><img src="vyaz_site_4.jpg" />
+                </a>
+              </div>
+            </div>
+            <div class="column-right">
+              <div class="column-right-1">
+                <div class="gallery-item">
+                  <a
+                    href="bigger_4.jpg"
+                    target="_blank"
+                    data-sub-html="<h4>«Я би ніколи не говорив цих слів, якби не ймовірність...»</h4><p> Та, ще раз Жадан, але це востаннє тут. Посилання не буде, бо страшно закидати щось в портфоліо, але  <a href='https://www.behance.net/mkuzelyak' target='_blank'>слідкуйте за моїм біхенсом і надійтеся, що я не буду боятися щось викладати</a description later on.</p>"
+                  >
+                    <img src="vyaz_site_5.jpg" />
+                  </a>
+                </div>
+              </div>
+              <div class="column-right-2">
+                <div class="gallery-item">
+                  <a
+                    href="bigger_false.jpg"
+                    target="_blank"
+                    data-sub-html="<h4>Спойлер майбутнього шрифта</h4><p>Та, на основі в'язі, а що? я її люблю))) посилання не буде <a href='http://google.com/' target='_blank'>слідкуйте за інстою і надійтеся на щось </a description later on.</p>"
+                    ><img src="false_vyaz1.jpg" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        
+        <div class="link">
+          <a href="https://www.behance.net/mkuzelyak" target="_blank">
+            лінк на повне портфоліо</a
+          >
+        </div>
+      </div>
     </div>
 
     <div id="contacts" class="section section-contacts">
       <div class="wrapper">
-        <h1 class="main-3"> Контакти</h1>
+        <h1 class="main-3">Контакти</h1>
         <div class="contacts-box">
-         
-          <div class="contacts-item"><a href="https://www.behance.net/mkuzelyak" target="_blank">
-            <img src="behance.jpg"/></a>
+          <div class="contacts-item">
+            <a href="https://www.behance.net/mkuzelyak" target="_blank">
+              <img src="behance.jpg"
+            /></a>
           </div>
-          <div class="contacts-item"><a href="https://www.instagram.com/mkuzelyak/" target="_blank">
-            <img src="instagram.jpg"/></a>
+          <div class="contacts-item">
+            <a href="https://www.instagram.com/mkuzelyak/" target="_blank">
+              <img src="instagram.jpg"
+            /></a>
           </div>
-          <div class="contacts-item"><a href="https://www.facebook.com/maryana.kuzelyak.9/" target="_blank">
-            <img src="facebook.jpg"/></a>
+          <div class="contacts-item">
+            <a
+              href="https://www.facebook.com/maryana.kuzelyak.9/"
+              target="_blank"
+            >
+              <img src="facebook.jpg"
+            /></a>
           </div>
         </div>
       </div>
     </div>
 
-<div id="mem" class="section section-mem">
-      <div class="wrapper">    
-    <img src="zalik.jpg"/>
+    <div id="mem" class="section section-mem">
+      <div class="wrapper">
+        <img src="zalik.jpg" />
       </div>
-</div>
+    </div>
+
+    <!-- крок 2 підключити js lightgallery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+      integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- крок 3 налаштувати/ініціалізувати js lightgallery -->
+    <script type="text/javascript">
+      lightGallery(document.getElementById("portfolio"), {
+        selector: ".gallery-item a",
+      });
+    </script>
   </body>
 </html>
